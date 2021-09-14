@@ -175,6 +175,10 @@ h2 {
   border-bottom: 2px solid #e9e9e9;
 }
 
+.bignr {
+  font-size: 2rem;
+}
+
 /* Recipe */
 
 h3 {
@@ -291,6 +295,17 @@ h4 {
   font-size: 0.9rem;
   color: black;
   letter-spacing: 0.1rem;
+}
+
+/* media queries */
+
+@media (max-width: 1200px) {
+  .tinyfood {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    margin-left: 4rem;
+  }
 }
 
 @media (max-width: 800px) {
