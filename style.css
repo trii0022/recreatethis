@@ -196,6 +196,23 @@ p {
   padding-right: 30vw;
 }
 
+/* Ingredients */
+
+article {
+  display: grid;
+  grid-template-columns: 90% 15%;
+}
+
+.sectionl {
+  display: grid;
+  grid-column: 1;
+}
+
+.section2 {
+  display: grid;
+  grid-column: 2;
+}
+
 /* From epicurious, see all */
 
 .row2 {
@@ -276,15 +293,38 @@ h4 {
   letter-spacing: 0.1rem;
 }
 
-@media only screen and (max-width: 602px) {
-  main {
-    line-height: 5em;
-    display: grid;
-    grid-template-columns: 100%;
-  }
-
+@media (max-width: 800px) {
   .tinyfood {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    margin-left: 4rem;
+  }
+
+  .column {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .boxleft {
+    margin-left: 8rem;
+  }
+
+  .login {
+    min-width: 15vw;
+  }
+
+  .signup {
+    min-width: 15vw;
+  }
+
+  .centerpart {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+
+  .footer {
+    height: 30%;
   }
 }
