@@ -1,0 +1,290 @@
+/* Add a black background color to the top navigation bar */
+.topnav {
+  overflow: hidden;
+  padding-bottom: 0.5vw;
+  border-bottom: 2px solid #e9e9e9;
+}
+
+/* Style the links inside the navigation bar */
+
+/* float: right; */
+
+/*   .topnav a button {
+  display: inline-block;
+  color: black;
+  text-align: justify;
+  text-decoration: none;
+  font-size: 17px;
+  gap: 20%;} */
+
+/*   display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-right: 3vw;
+  margin-top: 0; */
+
+.topnav a {
+  display: inline-block;
+  padding: 10px 50px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #2196f3;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type="text"] {
+  background-color: #e9e9e9;
+  float: left;
+  padding: 0.5rem;
+  border: none;
+  margin-top: 0.5rem;
+
+  margin-right: 1rem;
+  margin-left: 1rem;
+  font-size: 1rem;
+  width: 28%;
+}
+
+/*   background-color: #e9e9e9;
+  float: left;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  margin-left: 10px;
+  font-size: 17px;
+  width: 28%; */
+
+/* .search-button img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+} */
+
+/* Logo */
+
+.logo {
+  margin-right: 25vw;
+  margin-left: 10vw;
+}
+
+/* Log in and sign up buttons */
+
+button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 10px;
+
+  /* margin: 5px 0; */
+
+  border: none;
+  border-radius: 40%;
+  cursor: pointer;
+  width: 5%;
+}
+
+.login {
+  background-color: rgba(255, 0, 0, 0.733);
+  min-width: 5vw;
+}
+
+.signup {
+  background-color: #e9e9e9;
+  color: black;
+  min-width: 5vw;
+}
+
+/* Down arrow */
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/* Main section: food img */
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.food {
+  padding-top: 2vw;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 500;
+  letter-spacing: -1px;
+  font-size: 1.8rem;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Pontano Sans";
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: grey;
+  letter-spacing: 0.1vw;
+}
+
+/* 3 boxes in a row */
+
+.box {
+  margin: 0 auto;
+  margin: 2em;
+}
+.box1 {
+  margin: 0 auto;
+  margin: 2em;
+
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-right: 2px solid #e9e9e9;
+  border-left: 2px solid #e9e9e9;
+}
+.box2 {
+  margin: 0 auto;
+  margin: 2em;
+}
+.box,
+.box1,
+.box2 {
+  display: inline-block;
+}
+.row {
+  text-align: center;
+  border-bottom: 2px solid #e9e9e9;
+}
+
+/* Recipe */
+
+h3 {
+  font-family: "Pontano Sans";
+}
+
+.centreh3 {
+  text-align: center;
+}
+p {
+  font-family: "Pontano Sans";
+  color: black;
+}
+
+/* Centerpart */
+
+.centerpart {
+  padding-left: 30vw;
+  padding-right: 30vw;
+}
+
+/* From epicurious, see all */
+
+.row2 {
+  text-align: center;
+  border-top: 2px solid #e9e9e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 0;
+}
+
+.boxleft {
+  margin: 0 auto;
+  margin: 1rem;
+}
+.boxright {
+  margin: 0 auto;
+  margin: 1rem;
+}
+
+/* Tiny food recipes area */
+
+.column {
+  float: left;
+  width: 20%;
+}
+
+/* Clear floats after the columns */
+.tinyfood:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tinyfood {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+/* footer */
+
+.footer {
+  margin-top: 10vh;
+  background-color: #e9e9e9;
+  display: grid;
+  grid-template-columns: 40% 20% 20% 20% 20%;
+  height: 35vh;
+  grid-gap: 1vw;
+  padding-left: 10vw;
+  padding-right: 25vw;
+}
+
+.apple {
+  margin-top: 4vw;
+  padding-right: 5vw;
+}
+
+ul {
+  margin-top: -2%;
+}
+
+li {
+  list-style: none;
+  margin-left: -24%;
+  color: #737373;
+  line-height: 2.8rem;
+  font-family: "Roboto";
+}
+
+h4 {
+  font-family: "Roboto";
+  font-size: 0.9rem;
+  color: black;
+  letter-spacing: 0.1rem;
+}
+
+@media only screen and (max-width: 602px) {
+  main {
+    line-height: 5em;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .tinyfood {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
